@@ -5649,20 +5649,24 @@ section {
 .big_header {
   height: 600px !important; }
 
-.parallax, .parallax_pic1, .parallax_heading, .parallax_pic2, .parallax_pic3, .parallax_pic4, .parallax_pic5, .parallax_pic6 {
+.parallax, .parallax_pic1, .parallax_heading, #page-container, .parallax_pic2, .parallax_pic3, .parallax_pic4, .parallax_pic5, .parallax_pic6 {
   z-index: 50;
   top: 0;
   left: 0;
   height: 100%;
-  background: url("http://127.0.0.1:5000/photos/IMG_6226.jpg") fixed center center no-repeat;
+  background: url("http://127.0.0.1:8000/photos/IMG_6226.jpg") fixed center center no-repeat;
   background-size: 100vw 1000px !important;
   height: 600px; }
 
 .parallax_pic1 {
-  background: url("http://127.0.0.1:5000/photos/IMG_6224.jpg") fixed center center no-repeat; }
+  background: url("http://127.0.0.1:8000/photos/IMG_6224.jpg") fixed center center no-repeat; }
 
-.parallax_heading {
-  background: url("../photos/all-700/IMG_6229_parallax.png-jewish.png-700_darken.jpg") fixed center center no-repeat; }
+#sidebar {
+  display: none; }
+
+.parallax_heading, #page-container {
+  background: url("../photos/all-700/IMG_6229_parallax.png-jewish.png-700.jpg") fixed center center no-repeat !important;
+  /* background: url("../photos/all-700/IMG_6229_parallax.png-jewish.png-700_darken.jpg") fixed center center no-repeat !important */ }
 
 .parallax_pic2 {
   background: url("../photos/all-700/IMG_6226_parallax.png-jewish.png-700.jpg") fixed center center no-repeat; }
